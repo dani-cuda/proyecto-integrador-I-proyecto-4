@@ -1,0 +1,99 @@
+/* Estilo body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    padding: 20px;
+    background-color: #f6f0f0;
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f5f4f8;
+}
+
+/* Estilos de la seccion principal */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Estilos del footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #666;
+    padding: 0.7%;
+    border-radius: 10px;
+}
+footer p{
+    color: #f6f0f0;
+}
+
+img:hover{
+    scale: 1.05;
+}
+
+/* Media queries para pantallas chicas */
+@media (max-width: 600px) {
+    article {
+        flex: 1 1 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Media queries para pantallas medianas */
+@media (min-width: 600px) and (max-width: 900px) {
+    article {
+        flex: 1 1 calc(50% - 20px); /* Dos columnas en pantallas medianas */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Media queries para pantallas grandes */
+@media (min-width: 900px) {
+    article {
+        flex: 1 1 calc(30% - 20px);
+        padding: 1%;
+    }
+}

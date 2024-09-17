@@ -1,0 +1,20 @@
+.imagen-grande {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen-grande img {
+    width: 100%;
+    height: auto;
+}
+
+.imagen-grande h2 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.imagen-grande p {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 10px;
+}
